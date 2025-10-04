@@ -1,6 +1,6 @@
  html {
   scroll-behavior: smooth;
-  scroll-padding-top: 80px; /* ensures sections aren't hidden behind the sticky header */
+  scroll-padding-top: 80px; 
 }
 
     body {
@@ -8,6 +8,7 @@
       font-family: 'Poppins', sans-serif;
       background: #FBF8CC;
       color: #222;
+      
          /* --- START: GRID BACKGROUND CODE --- */
   background-color: #FBF8CC; /* Your original background color */
   background-image: repeating-linear-gradient(
