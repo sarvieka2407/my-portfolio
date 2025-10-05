@@ -1,36 +1,34 @@
- html {
+html {
   scroll-behavior: smooth;
   scroll-padding-top: 80px; 
 }
 
-    body {
-      margin: 0;
-      font-family: 'Poppins', sans-serif;
-      background: #FBF8CC;
-      color: #222;
-      
-         /* --- START: GRID BACKGROUND CODE --- */
-  background-color: #FBF8CC; /* Your original background color */
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #FBF8CC;
+  color: #222;
+
+  /* --- START: GRID BACKGROUND CODE --- */
+  background-color: #FBF8CC; 
   background-image: repeating-linear-gradient(
       0deg, 
-      rgba(151, 149, 114, 0.1), /* Very light gray/yellow line color (10% opacity) */
-      rgba(151, 149, 114, 0.1) 1px, /* Line thickness */
-      transparent 1px, /* Start of transparent gap */
-      transparent 25px /* Size of the grid square (25px x 25px) */
+      rgba(151, 149, 114, 0.1), 
+      rgba(151, 149, 114, 0.1) 1px, 
+      transparent 1px, 
+      transparent 25px
     ),
     repeating-linear-gradient(
       90deg, 
-      rgba(151, 149, 114, 0.1), /* Same light line color */
+      rgba(151, 149, 114, 0.1), 
       rgba(151, 149, 114, 0.1) 1px, 
       transparent 1px, 
       transparent 25px
     );
   /* --- END: GRID BACKGROUND CODE --- */
-  
 }
-    
 
-    header {
+header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -39,34 +37,33 @@
   box-shadow: 0 2px 5px rgba(0,0,0,0.05);
   position: sticky;
   top: 0;
-    z-index: 1000;
+  z-index: 1000;
 }
 
 .socials a img {
-  width: 35px;       /* adjust icon size */
+  width: 35px;      
   height: 35px;
   transition: transform 0.2s;
 }
 
 .github-icon {
-  width: 70px;   /* slightly larger */
+  width: 70px;   
   height: 70px;
 }
 
 .socials a img:hover {
-  transform: scale(1.2); /* slight zoom on hover */
+  transform: scale(1.2); 
 }
-
 
 .logo h3 {
   margin: 0;
-  font-size: 1.3rem;
+  font-size: 21px;
   font-weight: bold;
 }
 
 .menu {
   display: flex;
-  gap: 30px;  /* spacing between menu items */
+  gap: 30px;  
 }
 
 .menu a {
@@ -76,7 +73,7 @@
 }
 
 .menu a:hover {
-  color: #02022e; /* highlight on hover */
+  color: #02022e; 
 }
 
 .socials {
@@ -85,27 +82,26 @@
 }
 
 .socials a {
-  font-size: 1.2rem;
+  font-size: 19px;
   text-decoration: none;
 }
 
+header .logo {
+  font-weight: bold;
+  font-size: 19px;
+  color: #03045E;
+}
 
-    header .logo {
-      font-weight: bold;
-      font-size: 1.2rem;
-      color: #03045E;
-    }
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #03045E;
+  font-weight: 500;
+}
 
-    nav a {
-      margin: 0 15px;
-      text-decoration: none;
-      color: #03045E;
-      font-weight: 500;
-    }
-
-    nav a:hover {
-      color: #f5a623;
-    }
+nav a:hover {
+  color: #f5a623;
+}
 
 .hero {
   display: flex;
@@ -113,57 +109,51 @@
   justify-content: space-between;
   padding: 0 10%;
   background: #FBF8CC;
-  min-height: 100vh;   /* full screen */
+  min-height: 100vh;   
 
-   /* --- START: GRID BACKGROUND CODE --- */
-  background-color: #FBF8CC; /* Your original background color */
+  /* --- START: GRID BACKGROUND CODE --- */
+  background-color: #FBF8CC; 
   background-image: repeating-linear-gradient(
       0deg, 
-      rgba(151, 149, 114, 0.1), /* Very light gray/yellow line color (10% opacity) */
-      rgba(151, 149, 114, 0.1) 1px, /* Line thickness */
-      transparent 1px, /* Start of transparent gap */
-      transparent 25px /* Size of the grid square (25px x 25px) */
+      rgba(151, 149, 114, 0.1), 
+      rgba(151, 149, 114, 0.1) 1px, 
+      transparent 1px, 
+      transparent 25px
     ),
     repeating-linear-gradient(
       90deg, 
-      rgba(151, 149, 114, 0.1), /* Same light line color */
+      rgba(151, 149, 114, 0.1), 
       rgba(151, 149, 114, 0.1) 1px, 
       transparent 1px, 
       transparent 25px
     );
   /* --- END: GRID BACKGROUND CODE --- */
-  
 }
 
 .hero-text {
   max-width: 50%;
 }
 
-
 .hero img {
   max-height: 750px;
   max-width: 550px;
-  
 }
 
-
 .hero-text .intro {
-  font-size: 1.5rem;
+  font-size: 24px;
   color: #03045E;
-  
   font-weight: 400;
-  margin-bottom: -15px; /* Added: Negative margin to pull h1 closer */
+  margin-bottom: -15px;
 }
 
 .hero-text h1 {
-  font-size: 5rem;
+  font-size: 80px;
   color: #03045E;
-   line-height: 1.2;
+  line-height: 1.2;
 }
 
-
 .hero-text .tagline {
-  font-size: 1.8rem;
+  font-size: 29px;
   margin-bottom: 20px;
   font-weight: 400;
   color: #03045E;
@@ -186,7 +176,6 @@
 .btn-primary:hover { background: #d9870d; }
 
 .image-button {
-  /* Remove default link styling */
   display: inline-block;
   text-decoration: none;
   border: none;
@@ -195,62 +184,58 @@
 }
 
 .image-button img {
-  /* Ensure the image fits nicely */
   display: block;
-  width: 150px; /* Set your desired size */
+  width: 150px; 
   height: auto;
-  transition: opacity 0.2s; /* Optional: A nice hover effect */
+  transition: opacity 0.2s; 
 }
 
 .image-button:hover img {
   opacity: 0.8;
 }
 
+/* PROJECTS */
+.projects {
+  padding-top: 100px;
+  padding: 10px 10% 80px 10%;
+  min-height: 100vh;         
+  background:  #FBF8CC;
 
-    /* PROJECTS */
-    .projects {
-
-        padding-top: 100px;
-padding: 10px 10% 80px 10%;
-        min-height: 100vh;         /* full screen */
-      background:  #FBF8CC;
-         /* --- START: GRID BACKGROUND CODE --- */
-  background-color: #FBF8CC; /* Your original background color */
+  /* --- START: GRID BACKGROUND CODE --- */
+  background-color: #FBF8CC; 
   background-image: repeating-linear-gradient(
       0deg, 
-      rgba(151, 149, 114, 0.1), /* Very light gray/yellow line color (10% opacity) */
-      rgba(151, 149, 114, 0.1) 1px, /* Line thickness */
-      transparent 1px, /* Start of transparent gap */
-      transparent 25px /* Size of the grid square (25px x 25px) */
+      rgba(151, 149, 114, 0.1), 
+      rgba(151, 149, 114, 0.1) 1px, 
+      transparent 1px, 
+      transparent 25px
     ),
     repeating-linear-gradient(
       90deg, 
-      rgba(151, 149, 114, 0.1), /* Same light line color */
+      rgba(151, 149, 114, 0.1), 
       rgba(151, 149, 114, 0.1) 1px, 
       transparent 1px, 
       transparent 25px
     );
   /* --- END: GRID BACKGROUND CODE --- */
-    }
-
-
+}
 
 .projects h1 {
   font-family: 'Poppins', sans-serif;
-  font-size: 5rem;
+  font-size: 80px;
   font-weight: 700;
   margin-bottom: 30px;
   color: #F7F197;
   text-align: left;
 }
 
-    .project-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      gap: 25px;
-    }
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+}
 
-    .card {
+.card {
   background: linear-gradient(145deg, #ffffff, #f9f9f9);
   border-radius: 16px;
   overflow: hidden;
@@ -283,7 +268,7 @@ padding: 10px 10% 80px 10%;
 .card-content h3 {
   margin-bottom: 12px;
   color: #03045E;
-  font-size: 1.4rem;
+  font-size: 22px;
   font-weight: 600;
   position: relative;
 }
@@ -300,7 +285,7 @@ padding: 10px 10% 80px 10%;
 
 .card-content p {
   color: #444;
-  font-size: 0.95rem;
+  font-size: 15px;
   line-height: 1.6;
   margin-bottom: 18px;
 }
@@ -320,32 +305,28 @@ padding: 10px 10% 80px 10%;
   background: #F7F197;
 }
 
-
-
-    /* ABOUT */
+/* ABOUT */
 .about {
   min-height: 100vh;         
   padding: 0px 10% 80px 10%;
   background: #FBF8CC;
-  
-  /* CRITICAL CHANGE: Make this the Flex container for the two main columns */
   display: flex;
   align-items: flex-start;   
-  justify-content: space-between; /* Creates space between content and image */
-  gap: 50px; /* Add some space between the content and the image */
+  justify-content: space-between; 
+  gap: 50px;
 
-     /* --- START: GRID BACKGROUND CODE --- */
-  background-color: #FBF8CC; /* Your original background color */
+  /* --- START: GRID BACKGROUND CODE --- */
+  background-color: #FBF8CC; 
   background-image: repeating-linear-gradient(
       0deg, 
-      rgba(151, 149, 114, 0.1), /* Very light gray/yellow line color (10% opacity) */
-      rgba(151, 149, 114, 0.1) 1px, /* Line thickness */
-      transparent 1px, /* Start of transparent gap */
-      transparent 25px /* Size of the grid square (25px x 25px) */
+      rgba(151, 149, 114, 0.1), 
+      rgba(151, 149, 114, 0.1) 1px, 
+      transparent 1px, 
+      transparent 25px
     ),
     repeating-linear-gradient(
       90deg, 
-      rgba(151, 149, 114, 0.1), /* Same light line color */
+      rgba(151, 149, 114, 0.1), 
       rgba(151, 149, 114, 0.1) 1px, 
       transparent 1px, 
       transparent 25px
@@ -353,23 +334,21 @@ padding: 10px 10% 80px 10%;
   /* --- END: GRID BACKGROUND CODE --- */
 }
 
-
-
 .about-content {
-  /* Let the content take up slightly more space than the image */
   flex: 2; 
   display: flex;
   flex-direction: column; 
   gap: 40px;               
   align-items: flex-start;
 }
+
 .about-text {
   flex: 2;
 }
 
 .about h1 {
   font-family: 'Poppins', sans-serif;
-  font-size: 5rem;
+  font-size: 80px;
   font-weight: 700;
   margin-bottom: 30px;
   color: #F7F197;
@@ -380,7 +359,7 @@ padding: 10px 10% 80px 10%;
   max-width: 700px;
   color: #03045E;
   line-height: 1.8;
-  font-size: 1.1rem;
+  font-size: 18px;
   text-align: left;
 }
 
@@ -389,7 +368,7 @@ padding: 10px 10% 80px 10%;
 }
 
 .about-interests h2 {
-  font-size: 2rem;
+  font-size: 32px;
   margin-bottom: 15px;
   color: #1c1d5b;
 }
@@ -400,7 +379,7 @@ padding: 10px 10% 80px 10%;
 }
 
 .about-interests li {
-  font-size: 1.1rem;
+  font-size: 18px;
   color: #444;
   margin-bottom: 12px;
   line-height: 1.6;
@@ -410,172 +389,152 @@ padding: 10px 10% 80px 10%;
   flex: 1;  
   display: flex;
   justify-content: center;
-  /* CRITICAL CHANGE: Align items to the center or bottom for vertical positioning */
-  /* Try 'center' first for a balanced look, or 'flex-end' to push it to the bottom */
   align-items: center; 
-  
-  /* You can add a top margin to push it down further if 'center' isn't enough */
-  margin-top: 50px; /* Adjust this value as needed to move it down */
+  margin-top: 50px; 
 }
+
 .about-image img {
   width: auto;     
-  /* CRITICAL CHANGE: Increase max-height to make it bigger */
-  max-height: 420px; /* Changed from 500px - adjust as needed, e.g., 650px, 700px */
+  max-height: 420px; 
   object-fit: contain; 
   margin-top: 150px;
-
 }
 
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #111;
+  color: #bbb;
+  margin-top: 40px;
+}
 
-    /* FOOTER */
-    footer {
-      text-align: center;
-      padding: 20px;
-      background: #111;
-      color: #bbb;
-      margin-top: 40px;
-    }
-
-    footer a {
-      color: #f5a623;
-      text-decoration: none;
-      margin: 0 10px;
-    }
- 
+footer a {
+  color: #f5a623;
+  text-decoration: none;
+  margin: 0 10px;
+}
 
 /* --- Connect Page Layout --- */
-
 .connect-section {
-    background: #FBF8CC; /* Your main background color */
-    /* REMOVED: 100px 10% from padding */
-    padding: 0 10%; /* Zero top/bottom padding to start at the top edge */
-    min-height: 100vh;
-    display: flex;
-    /* REMOVED: justify-content: center; */
-    /* REMOVED: align-items: center; */
-    flex-direction: column; /* Stack children vertically (heading, then container) */
+  background: #FBF8CC;
+  padding: 0 10%; 
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column; 
     
-     /* --- START: GRID BACKGROUND CODE --- */
-  background-color: #FBF8CC; /* Your original background color */
+  /* --- START: GRID BACKGROUND CODE --- */
+  background-color: #FBF8CC; 
   background-image: repeating-linear-gradient(
       0deg, 
-      rgba(151, 149, 114, 0.1), /* Very light gray/yellow line color (10% opacity) */
-      rgba(151, 149, 114, 0.1) 1px, /* Line thickness */
-      transparent 1px, /* Start of transparent gap */
-      transparent 25px /* Size of the grid square (25px x 25px) */
+      rgba(151, 149, 114, 0.1), 
+      rgba(151, 149, 114, 0.1) 1px, 
+      transparent 1px, 
+      transparent 25px
     ),
     repeating-linear-gradient(
       90deg, 
-      rgba(151, 149, 114, 0.1), /* Same light line color */
+      rgba(151, 149, 114, 0.1), 
       rgba(151, 149, 114, 0.1) 1px, 
       transparent 1px, 
       transparent 25px
     );
   /* --- END: GRID BACKGROUND CODE --- */
-
 }
-
-
 
 .page-title-heading {
   font-family: 'Poppins', sans-serif;
-  font-size: 5rem;
+  font-size: 80px;
   font-weight: 700;
-  margin: 0; /* Remove default margins */
-  padding-top: 60px; /* Space from the top edge */
-  
+  margin: 0;
+  padding-top: 60px;
   color: #F7F197;
   text-align: left;
 }
 
 .connect-container {
-    display: flex;
-    gap: 40px;
-    width: 100%;
-    max-width: 1200px; 
-    
-    /* ADDED: Space below the heading and push the container down */
-    margin-top: 40px; 
-    margin-bottom: 60px; /* Space at the bottom of the section */
+  display: flex;
+  gap: 40px;
+  width: 100%;
+  max-width: 1200px; 
+  margin-top: 40px; 
+  margin-bottom: 60px;
 }
 
-/* --- LEFT COLUMN: Form Area Styling --- */
 .connect-form-area {
-    flex: 3; /* Takes up 60% of the space (3 out of 5 parts) */
-    background: rgba(255, 255, 255, 0.5); /* Semi-transparent white background */
-    padding: 40px;
-    border-radius: 12px;
-    position: relative; /* For positioning the accents */
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  flex: 3; 
+  background: rgba(255, 255, 255, 0.5); 
+  padding: 40px;
+  border-radius: 12px;
+  position: relative; 
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
 }
 
 .connect-form-area h1 {
-    font-size: 3rem;
-    color: #03045E;
-    margin-bottom: 10px;
+  font-size: 48px;
+  color: #03045E;
+  margin-bottom: 10px;
 }
 
 .connect-form-area .tagline {
-    font-size: 1.1rem;
-    color: #333;
-    margin-bottom: 30px;
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 30px;
 }
 
-/* --- Form Input Styling --- */
 .contact-form input,
 .contact-form textarea {
-       width: 100%;
-    padding: 18px 20px; /* More spacious */
-    margin-bottom: 20px;
-    border: 2px solid #E0E0E0; /* Light gray border */
-    border-radius: 12px; /* More rounded */
-    background: #FFFBEA; /* Slightly warmer pale yellow */
-    color: #03045E;
-    font-family: 'Poppins', sans-serif;
-    font-size: 1rem;
-    box-sizing: border-box;
-    transition: all 0.3s ease;
-    outline: none; /* Remove default blue outline */
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05); /* Soft shadow */
+  width: 100%;
+  padding: 18px 20px;
+  margin-bottom: 20px;
+  border: 2px solid #E0E0E0;
+  border-radius: 12px;
+  background: #FFFBEA;
+  color: #03045E;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+  outline: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
 }
 
 .contact-form textarea {
-    resize: vertical;
+  resize: vertical;
 }
 
 .contact-form button.btn-primary {
-    background: linear-gradient(135deg, #f9f5be,  #f6f4d3);
-    color: #03045E;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 600;
-    font-size: 1.1rem;
-    padding: 15px 25px;
-    border: none;
-    border-radius: 12px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  background: linear-gradient(135deg, #f9f5be,  #f6f4d3);
+  color: #03045E;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 15px 25px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
 .contact-form button.btn-primary:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.15);
 }
 
-/* --- RIGHT COLUMN: Details Area Styling --- */
 .connect-details-area {
-    flex: 2; /* Takes up 40% of the space (2 out of 5 parts) */
-    background: rgba(255, 255, 255, 0.5); /* Semi-transparent white background */
-    padding: 40px;
-    border-radius: 12px;
-    position: relative;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  flex: 2; 
+  background: rgba(255, 255, 255, 0.5); 
+  padding: 40px;
+  border-radius: 12px;
+  position: relative;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
 }
 
 .connect-details-area h2 {
-    font-size: 2rem;
-    color: #03045E;
-    margin-bottom: 30px;
+  font-size: 32px;
+  color: #03045E;
+  margin-bottom: 30px;
 }
 
 .detail-block {
@@ -583,67 +542,60 @@ padding: 10px 10% 80px 10%;
 }
 
 .detail-block h3 {
-  font-size: 1.2rem;
+  font-size: 19px;
   font-weight: 600;
   color: #03045E;
   margin-bottom: 10px;
 }
 
-/* Normal text links */
 .detail-block a {
   color: #03045E;
   text-decoration: underline;
 }
 
-/* Social icon links */
 .social-icons-large a {
   color: #03045E;
-  font-size: 1.5rem;
+  font-size: 24px;
   margin-right: 15px;
-  text-decoration: none;   /* remove underline from icons */
+  text-decoration: none;
   transition: color 0.3s ease;
 }
 
 .social-icons-large a:hover {
-  color: #424111;  /* subtle hover color */
+  color: #424111;  
 }
 
-
-/* --- Decorative Accents Positioning (Adjust as needed) --- */
-/* Assuming you have classes for your accents, otherwise you'd use pseudo-elements */
 .accents-top { 
-    position: absolute; top: 20px; right: 20px; color: #03045E; font-size: 1.5rem; 
+  position: absolute; top: 20px; right: 20px; color: #03045E; font-size: 24px; 
 }
 .accents-left { 
-    position: absolute; top: 180px; left: 10px; color: #03045E; 
+  position: absolute; top: 180px; left: 10px; color: #03045E; 
 }
 .accents-right { 
-    position: absolute; bottom: 20px; right: 10px; color: #03045E; transform: rotate(90deg);
+  position: absolute; bottom: 20px; right: 10px; color: #03045E; transform: rotate(90deg);
 }
 
-/* --- Mobile Responsiveness --- */
 @media (max-width: 768px) {
-    .connect-container {
-        flex-direction: column; /* Stacks columns vertically on smaller screens */
-    }
-    .connect-form-area, 
-    .connect-details-area {
-        padding: 30px;
-    }
+  .connect-container {
+    flex-direction: column; 
+  }
+  .connect-form-area, 
+  .connect-details-area {
+    padding: 30px;
+  }
 }
 
 .footer {
-  background-color: #ffffff; /* soft, light color */
+  background-color: #ffffff; 
   text-align: center;
   padding: 10px 0;
-  border-radius: 12px 12px 0 0; /* rounded top corners */
+  border-radius: 12px 12px 0 0; 
   font-family: 'Arial', sans-serif;
-  color: #555; /* muted text */
+  color: #555; 
 }
 
 .footer-quote {
   margin-top: 5px;
-  
-  font-size: 0.9rem;
-  color: #777; /* slightly lighter for quote */
+  font-size: 14px;
+  color: #777; 
 }
